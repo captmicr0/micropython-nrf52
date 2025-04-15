@@ -49,6 +49,14 @@
 #define MICROPY_HW_LED1             _PINNUM(1,03) // LED1
 #define MICROPY_HW_LED2             _PINNUM(1,01) // LED2
 
+// UART config
+#define MICROPY_HW_ENABLE_UART_REPL (1)
+#define MICROPY_HW_UART1_RX         _PINNUM(0,8)
+#define MICROPY_HW_UART1_TX         _PINNUM(0,6)
+#define MICROPY_HW_UART1_CTS        _PINNUM(0,7)
+#define MICROPY_HW_UART1_RTS        _PINNUM(0,5)
+#define MICROPY_HW_UART1_HWFC       (1)
+
 // SPI0 config
 #define MICROPY_HW_SPI0_NAME        "SPI0"
 
