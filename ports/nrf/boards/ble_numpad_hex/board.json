@@ -1,0 +1,15 @@
+{
+    "deploy": [
+        "../deploy.md"
+    ],
+    "docs": "",
+    "features": [],
+    "images": [
+        "nRF52840-DK-prod-page.jpg"
+    ],
+    "mcu": "nrf52",
+    "product": "ble-numpad-hex",
+    "thumbnail": "",
+    "url": "https://www.nordicsemi.com/Products/Development-hardware/nRF52840-DK",
+    "vendor": "Nordic Semiconductor"
+}
